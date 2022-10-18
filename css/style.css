@@ -135,47 +135,54 @@ div.big-content{
 
 footer{
     padding: 2rem;
+    background-color: #23272a;
+    height: 35rem;
+    padding-top:1rem;
 }
 
 footer section.footer-top{
-    height: 500px;
-    background-color: #7fffd4;
+    height: 450px;
+    /* background-color: #7fffd4; */
+    border-bottom: solid #3b445f 2px ;
 }
 
 footer section.footer-top aside{
     width: 30%;
     height: 100%;
-    background-color: #f08080;
+    /* background-color: #f08080; */
 
 }
 
 footer section.footer-top nav{
     width: 70%;
     height: 100%;
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
 }
 
 footer .footer-top nav ul{
     width: 25%;
     height: 100%;
-    border: 2px dashed white;
+    /* border: 2px dashed white; */
+    
 }
 
-footer hr{
-    margin: 2rem 0;
-}
+
 
 footer section.footer-bottom{
-    height: 100px;
-    background-color: #7fffd4;
+    height: 80px;
+    background-color: #23272a;
     justify-content: space-between;
 }
 
 footer .footer-logo,
 footer .footer-button{
-    background-color: rgb(246, 136, 154);
+    /* background-color: rgb(246, 136, 154); */
     padding: .5rem;
     font-size: 1.25rem;
+    height: 3rem;
+    width: 7rem;
+    text-align: center;
+    padding-top: 0.75rem;
 }
 
 
@@ -201,13 +208,48 @@ div h2{
     
 }
 
-h3{
+div h3{
 background-image: url(../img/stars.svg);
 background-repeat: no-repeat;
 background-size: contain;
 height: 60px;
 background-position:center;
 }
+
+
+aside h4{
+    
+    color: #6c82ce;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+
+}
+
+aside img{
+    height: 1.1rem;
+    padding-left: 8px;
+    
+
+}
+
+nav h5{
+    
+        font-size: 1.4rem;
+        color: #6c82ce;
+        ;
+        
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    line-height: 150%;
+    font-size: 1rem;
+}
+
+span{
+    color: white;
+} 
 
 
 
@@ -287,4 +329,37 @@ button.down-mac:hover{
     color: white;
     background-color: #7983f5;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+button.register{
+    border: none;
+    color: white;
+    height: 2rem;
+    width: 6rem;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #92a6e8;
+    }
+button.register:hover{
+    color: white;
+    background-color: #7983f5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+aside ul li{
+    display:inline-block;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+
+.nav-menu{
+    font-size: 1rem;
+    padding-top: 2.3rem;
 }
