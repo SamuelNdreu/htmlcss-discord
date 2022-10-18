@@ -221,7 +221,7 @@ aside h4{
     
     color: #6c82ce;
     font-size: 2.5rem;
-    padding: 2rem 0;
+    padding: 1.3rem 0;
 
 }
 
@@ -369,8 +369,11 @@ aside ul li:hover{
 
 .nav-menu{
     font-size: 1rem;
-    padding-top: 2.3rem;
+    padding-top: 2.5rem;
 }
 
-
+.nav-menu h5{
+    font-size: 1.3rem;
+    padding-bottom: 1.2rem;
+}
 
