@@ -53,6 +53,7 @@ body{
     color: #23272a;
 }
 
+
 button.accedi{
     border: none;
     height: 2rem;
@@ -126,9 +127,10 @@ a:hover{
 }
 
 div.big-content{
-    background-color: #228a22;
+    /* background-color: #228a22; */
     height: 800px;
     width: 100%;
+    text-align: center;
 }
 
 footer{
@@ -199,12 +201,23 @@ div h2{
     
 }
 
+h3{
+background-image: url(../img/stars.svg);
+background-repeat: no-repeat;
+background-size: contain;
+height: 60px;
+background-position:center;
+}
+
 
 
 div p{
-    font-size: 23px;
+    font-size: 20px;
     padding-top: 2rem;
     line-height: 150%;
+    font-weight:500;
+
+    
 }
 
 
@@ -257,4 +270,21 @@ button.browser:hover{
     color: #395c93;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
+}
+
+
+button.down-mac{
+    border: none;
+    color: white;
+    height: 3rem;
+    width: 12rem;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #92a6e8;
+}
+
+button.down-mac:hover{
+    color: white;
+    background-color: #7983f5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
