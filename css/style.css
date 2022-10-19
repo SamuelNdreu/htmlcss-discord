@@ -133,6 +133,16 @@ div.big-content{
     text-align: center;
 }
 
+main section.king{
+    padding-bottom: 4rem;
+}
+
+section.frog{
+    padding-bottom: 6rem;
+}
+
+
+
 footer{
     padding: 2rem;
     background-color: #23272a;
@@ -214,6 +224,7 @@ background-repeat: no-repeat;
 background-size: contain;
 height: 60px;
 background-position:center;
+font-size: 2rem;
 }
 
 
